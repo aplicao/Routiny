@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textKaomojiMascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="48sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textNombreMascota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textEstadoMascota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mis alarmas"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/contenedorAlarmas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/inputHorario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Seleccionar hora"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="true"
+            android:inputType="none"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/botonAgregarAlarma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar alarma"
+            android:layout_marginBottom="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro de hoy"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/botonCumplido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cumpli mi rutina hoy"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/botonNoCumplido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No cumpli"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/textMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/botonProbarDesafio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Probar pantalla de desafio" />
+
+    </LinearLayout>
+</ScrollView>
